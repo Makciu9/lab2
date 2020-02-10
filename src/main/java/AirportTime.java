@@ -26,6 +26,7 @@ public class AirportTime {
     job.setMapOutputKeyClass(AirportWritableComparable.class);
 
     job.setOutputKeyClass(Text.class);
+    job.setOutputValueClass(Text.class);
 
 
 
