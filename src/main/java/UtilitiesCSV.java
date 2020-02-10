@@ -24,6 +24,6 @@ public class UtilitiesCSV {
         return line.split(",");
     }
 
-    
+    static String[] filter(String[] parsed, int keyData) {
 
 }
