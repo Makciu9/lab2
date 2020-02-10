@@ -12,7 +12,7 @@ public class UtilitiesCSV {
         } else if (keyData == FLIGHT_KEY) {
             return parseFlightData(line);
         } else {
-            
+            return EMPTY;
         }
     }
 
