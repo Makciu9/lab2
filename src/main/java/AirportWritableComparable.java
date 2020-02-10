@@ -32,4 +32,7 @@ public class AirportWritableComparable {
         dataOutput.writeInt(this.keyData);
     }
     @Override
+    public void readFields(DataInput dataInput) throws IOException {
+        
+    }
 }
