@@ -11,6 +11,6 @@ public class AirportWritableComparable {
     public AirportWritableComparable() {}
 
     AirportWritableComparable(int airportID, int keyData) {
-        
+        this.airportID = airportID;
     }
 }
