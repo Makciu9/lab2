@@ -46,6 +46,6 @@ public class UtilitiesCSV {
         (parsed[CANCELED].equals("1.00"))||
         parsed[DELAYED].equals("0.00"))) {
             return EMPTY;
-    }
+    } else {
 
 }
