@@ -29,6 +29,7 @@ public class AirportWritableComparable {
     @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(this.airportID);
-        
+        dataOutput.writeInt(this.keyData);
     }
+    
 }
