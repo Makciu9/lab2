@@ -42,7 +42,7 @@ public class UtilitiesCSV {
         }
     }
     private static String[] filterFlightData(String[] parsed) {
-        if ((parsed[FIRST_ITEM].equals("\"YEAR\""))
+        if ((parsed[FIRST_ITEM].equals("\"YEAR\""))||
         (parsed[CANCELED].equals("1.00"))||
         parsed[DELAYED].equals("0.00"))) {
             return EMPTY;
