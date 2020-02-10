@@ -30,7 +30,7 @@ public class AirportReducer {
                 sum += current;
                 }
             if (sum != 0) {
-                
+                context.write(new Text(airportName), new Text("Max: " + max + " | Min: " + min + " | Middle: " + sum / size));
             }
         }
 
