@@ -10,6 +10,6 @@ public class AirportMapper {
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        
+        MapTemplate.use(value, context, KEY_DATA, AIRPORT_ID, AIRPORT_NAME);
     }
 }
