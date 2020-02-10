@@ -22,6 +22,7 @@ public class AirportWritableComparable {
     @Override
     public int compareTo(AirportWritableComparable obj) {
         return (this.airportID == obj.airportID) ?
-                
+                (this.keyData - obj.keyData) :
+
     }
 }
