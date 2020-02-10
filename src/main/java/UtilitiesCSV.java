@@ -49,6 +49,7 @@ public class UtilitiesCSV {
         }
 
         static String[] removeQuotes(String[] filtered) {
+            int size = filtered.length;
             
         }
 
