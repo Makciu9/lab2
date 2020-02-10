@@ -16,7 +16,7 @@ public class AirportReducer {
                 String str = iter.next().toString();
                 if (str.isEmpty()) {
                     continue;
-                }
+                } else if (str.matches(".*[a-zA-Z]+.*")) {
 
             }
         }
