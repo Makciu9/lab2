@@ -42,7 +42,7 @@ public class UtilitiesCSV {
         }
     }
     private static String[] filterFlightData(String[] parsed) {
-        
+        if ((parsed[FIRST_ITEM].equals("\"YEAR\""))
     }
 
 }
