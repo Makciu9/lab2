@@ -8,6 +8,8 @@ public class UtilitiesCSV {
 
     static String[] parse(String line, int keyData) {
         if (keyData == AIRPORT_KEY) {
+            return parseAirportData(line);
+        }
     }
 
 }
