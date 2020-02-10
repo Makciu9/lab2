@@ -15,7 +15,7 @@ public class AirportReducer {
             for (; iter.hasNext(); size++) {
                 String str = iter.next().toString();
                 if (str.isEmpty()) {
-                    
+                    continue;
                 }
 
             }
