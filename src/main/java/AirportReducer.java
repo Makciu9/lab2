@@ -11,7 +11,7 @@ public class AirportReducer {
                 IOException, InterruptedException {
             Iterator<Text> iter = values.iterator();
             double max = Double.MIN_VALUE, min = Double.MAX_VALUE, sum = 0.0, size = 0.0;
-            
+            String airportName = "";
         }
 
     }
