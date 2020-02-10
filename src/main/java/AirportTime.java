@@ -10,7 +10,7 @@ public class AirportTime {
         if (args.length != 3) {
             System.exit(-1);
         }
-    }
+    
 
     Job job = Job.getInstance();
     job.setJarByClass(AirportTime .class);
