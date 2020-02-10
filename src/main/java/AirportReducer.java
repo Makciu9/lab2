@@ -22,7 +22,7 @@ public class AirportReducer {
                 }
                 double current = Double.parseDouble(str);
                 if (current > max) {
-
+                    max = current;
             }
         }
 
