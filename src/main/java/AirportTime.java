@@ -12,5 +12,7 @@ public class AirportTime {
         }
     }
     Job job = Job.getInstance();
+    job.setJarByClass(AirportTime.class);
     
+
 }
