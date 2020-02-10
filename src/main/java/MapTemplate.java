@@ -5,6 +5,7 @@ import java.io.IOException;
 public class MapTemplate {
     public static void use(Text value, Mapper.Context context, int keyData, int airportId, int delayed) throws IOException, InterruptedException {
         String[] parsed = UtilitiesCSV.parse(value.toString(), keyData);
+        String[] filtered = UtilitiesCSV.filter(parsed, keyData);
     }
 
 }
