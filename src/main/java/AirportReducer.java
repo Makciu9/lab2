@@ -24,6 +24,10 @@ public class AirportReducer {
                 if (current > max) {
                     max = current;
             }
+                if (current < min) {
+
+                }
+                }
         }
 
     }
