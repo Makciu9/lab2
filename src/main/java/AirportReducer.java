@@ -17,6 +17,9 @@ public class AirportReducer {
                 if (str.isEmpty()) {
                     continue;
                 } else if (str.matches(".*[a-zA-Z]+.*")) {
+                    airportName = str;
+                    continue;
+                }
 
             }
         }
