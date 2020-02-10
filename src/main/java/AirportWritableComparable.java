@@ -9,4 +9,8 @@ public class AirportWritableComparable {
     private int keyData;
 
     public AirportWritableComparable() {}
+
+    AirportWritableComparable(int airportID, int keyData) {
+        
+    }
 }
