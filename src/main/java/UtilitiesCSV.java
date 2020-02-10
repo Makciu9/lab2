@@ -31,6 +31,8 @@ public class UtilitiesCSV {
             return filterFlightData(parsed);
         }
         else {
+            return EMPTY;
+        }
     }
 
 }
