@@ -10,6 +10,8 @@ public class AirportReducer {
         protected void reduce(AirportWritableComparable key, Iterable<Text> values, Context context) throws
                 IOException, InterruptedException {
             Iterator<Text> iter = values.iterator();
+            double max = Double.MIN_VALUE, min = Double.MAX_VALUE, sum = 0.0, size = 0.0;
+            
         }
 
     }
