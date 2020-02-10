@@ -51,6 +51,8 @@ public class UtilitiesCSV {
         static String[] removeQuotes(String[] filtered) {
             int size = filtered.length;
             for (int i = 0; i < size; i++) {
+                filtered[i] = filtered[i].replaceAll("\"", "");
+            }
 
         }
 
