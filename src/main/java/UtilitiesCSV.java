@@ -37,7 +37,7 @@ public class UtilitiesCSV {
     private static String[] filterAirportData(String[] parsed) {
         if (parsed[FIRST_ITEM].equals("Code")) {
             return EMPTY;
-        }
+        }else {
     }
 
 }
