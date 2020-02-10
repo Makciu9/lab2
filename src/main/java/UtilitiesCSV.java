@@ -16,4 +16,8 @@ public class UtilitiesCSV {
         }
     }
 
+    private static String[] parseAirportData(String line) {
+        
+    }
+
 }
