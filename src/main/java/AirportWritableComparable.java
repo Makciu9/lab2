@@ -16,4 +16,7 @@ public class AirportWritableComparable {
     }
 
     int getAirportID() {
+        return this.airportID;
+    }
+    
 }
