@@ -13,7 +13,8 @@ public class AirportReducer {
             double max = Double.MIN_VALUE, min = Double.MAX_VALUE, sum = 0.0, size = 0.0;
             String airportName = "";
             for (; iter.hasNext(); size++) {
-                
+                String str = iter.next().toString();
+
             }
         }
 
