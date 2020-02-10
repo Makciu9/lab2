@@ -30,6 +30,7 @@ public class UtilitiesCSV {
         }else if (keyData == FLIGHT_KEY){
             return filterFlightData(parsed);
         }
+        else {
     }
 
 }
