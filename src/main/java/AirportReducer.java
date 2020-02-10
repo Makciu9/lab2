@@ -6,6 +6,7 @@ import java.util.Iterator;
 
 public class AirportReducer {
     public class AirportReducer extends Reducer<AirportWritableComparable, Text, Text, Text> {
+        @Override
         
     }
 }
