@@ -20,6 +20,13 @@ public class AirportTime {
 
     FileOutputFormat.setOutputPath(job, new Path(args[2]));
 
+    job.setPartitionerClass(DataPartitioner.class);
+    job.setGroupingComparatorClass(AirportGroupingComparator.class);
+    job.setReducerClass(AirportReducer.class);
+    job.setMapOutputKeyClass(AirportWritableComparable.class);
+    
+
+
 
 
 
