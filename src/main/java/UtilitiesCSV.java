@@ -25,5 +25,7 @@ public class UtilitiesCSV {
     }
 
     static String[] filter(String[] parsed, int keyData) {
+        if (keyData == AIRPORT_KEY) {
+    }
 
 }
