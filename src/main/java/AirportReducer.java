@@ -14,6 +14,9 @@ public class AirportReducer {
             String airportName = "";
             for (; iter.hasNext(); size++) {
                 String str = iter.next().toString();
+                if (str.isEmpty()) {
+                    
+                }
 
             }
         }
