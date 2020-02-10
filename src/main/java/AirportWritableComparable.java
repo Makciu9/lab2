@@ -31,5 +31,5 @@ public class AirportWritableComparable {
         dataOutput.writeInt(this.airportID);
         dataOutput.writeInt(this.keyData);
     }
-    
+    @Override
 }
