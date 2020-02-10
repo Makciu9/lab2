@@ -38,6 +38,9 @@ public class UtilitiesCSV {
         if (parsed[FIRST_ITEM].equals("Code")) {
             return EMPTY;
         }else {
+            return parsed;
+        }
     }
+    
 
 }
