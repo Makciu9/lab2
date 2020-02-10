@@ -10,6 +10,7 @@ public class MapTemplate {
         if (result.length == 0) {
             return;
         }
+        context.write(new AirportWritableComparable(Integer.parseInt(result[airportId]), keyData), new Text(result[delayed]));
     }
 
 }
