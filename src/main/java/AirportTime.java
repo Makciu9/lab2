@@ -11,5 +11,6 @@ public class AirportTime {
             System.exit(-1);
         }
     }
+    Job job = Job.getInstance();
     
 }
