@@ -24,7 +24,9 @@ public class AirportTime {
     job.setGroupingComparatorClass(AirportGroupingComparator.class);
     job.setReducerClass(AirportReducer.class);
     job.setMapOutputKeyClass(AirportWritableComparable.class);
-    
+
+    job.setOutputKeyClass(Text.class);
+
 
 
 
