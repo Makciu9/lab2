@@ -41,6 +41,8 @@ public class UtilitiesCSV {
             return parsed;
         }
     }
-    
+    private static String[] filterFlightData(String[] parsed) {
+        
+    }
 
 }
