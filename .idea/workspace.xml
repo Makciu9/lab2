@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6943302-1cfc-4ab9-99e7-69d554cf0393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/UtilitiesCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UtilitiesCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirportMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AirportMapper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

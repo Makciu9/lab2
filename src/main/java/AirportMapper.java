@@ -9,4 +9,7 @@ public class AirportMapper {
     private static final int KEY_DATA = 0;
 
     @Override
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+        
+    }
 }
