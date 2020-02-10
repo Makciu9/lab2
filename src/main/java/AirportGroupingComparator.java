@@ -9,6 +9,7 @@ public class AirportGroupingComparator {
     public int compare(WritableComparable a, WritableComparable b) {
         AirportWritableComparable a1 = (AirportWritableComparable) a;
         AirportWritableComparable b1 = (AirportWritableComparable) b;
+        return a1.getAirportID() - b1.getAirportID();
 
     }
 }
