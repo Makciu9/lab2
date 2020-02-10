@@ -1,6 +1,6 @@
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
-public class AirportGroupingComparator {
+public class AirportGroupingComparator extends WritableComparator {
     AirportGroupingComparator() {
         super(AirportWritableComparable.class, true);
     }
