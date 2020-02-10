@@ -17,7 +17,9 @@ public class UtilitiesCSV {
     }
 
     private static String[] parseAirportData(String line) {
-        
+        return line.split(",", 2);
     }
+
+    
 
 }
