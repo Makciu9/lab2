@@ -18,5 +18,9 @@ public class AirportWritableComparable {
     int getAirportID() {
         return this.airportID;
     }
-    
+
+    @Override
+    public int compareTo(AirportWritableComparable obj) {
+        
+    }
 }
