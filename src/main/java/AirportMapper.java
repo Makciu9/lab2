@@ -7,4 +7,6 @@ public class AirportMapper {
     private static final int AIRPORT_ID = 0;
     private static final int AIRPORT_NAME = 1;
     private static final int KEY_DATA = 0;
+
+    @Override
 }
