@@ -7,4 +7,6 @@ import java.io.IOException;
 public class AirportWritableComparable {
     private int airportID;
     private int keyData;
+
+    public AirportWritableComparable() {}
 }
