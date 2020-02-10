@@ -5,4 +5,5 @@ public class DataPartitioner extends HashPartitioner<AirportWritableComparable, 
     @Override
     public int getPartition(AirportWritableComparable key, Text value, int numReduceTasks) {
         return (Integer.valueOf(key.getAirportID()).hashCode() & Integer.MAX_VALUE) % numReduceTasks;
+    }
 }
