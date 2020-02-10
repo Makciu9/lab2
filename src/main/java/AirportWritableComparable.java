@@ -34,6 +34,6 @@ public class AirportWritableComparable {
     @Override
     public void readFields(DataInput dataInput) throws IOException {
         this.airportID = dataInput.readInt();
-        
+        this.keyData = dataInput.readInt();
     }
 }
