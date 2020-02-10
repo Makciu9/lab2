@@ -7,32 +7,36 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class AirportTime {
     public static void main(String[] args) throws Exception {
-        if (args.length != 3){
+        if (args.length != 3) {
             System.exit(-1);
         }
     }
+
     Job job = Job.getInstance();
-    job.setJarByClass(AirportTime.class);
+    job.setJarByClass(AirportTime .class);
 
 
-    MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportMapper.class);
-    MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, FlightMapper.class);
+    MultipleInputs.addInputPath(job,new
 
-    FileOutputFormat.setOutputPath(job, new Path(args[2]));
+    Path(args[0]),TextInputFormat.class,AirportMapper .class);
+    MultipleInputs.addInputPath(job,new
 
-    job.setPartitionerClass(DataPartitioner.class);
-    job.setGroupingComparatorClass(AirportGroupingComparator.class);
-    job.setReducerClass(AirportReducer.class);
-    job.setMapOutputKeyClass(AirportWritableComparable.class);
+    Path(args[1]),TextInputFormat.class,FlightMapper .class);
 
-    job.setOutputKeyClass(Text.class);
-    job.setOutputValueClass(Text.class);
+    FileOutputFormat.setOutputPath(job,new
+
+    Path(args[2]));
+
+    job.setPartitionerClass(DataPartitioner .class);
+    job.setGroupingComparatorClass(AirportGroupingComparator .class);
+    job.setReducerClass(AirportReducer .class);
+    job.setMapOutputKeyClass(AirportWritableComparable .class);
+
+    job.setOutputKeyClass(Text .class);
+    job.setOutputValueClass(Text .class);
     job.setNumReduceTasks(2);
-    System.exit(job.waitForCompletion(true) ? 0 : 1);
+    System.exit(job.waitForCompletion(true)?0:1);
 
 
-
-
-
-
+}
 }
