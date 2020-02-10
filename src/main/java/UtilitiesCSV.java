@@ -20,6 +20,8 @@ public class UtilitiesCSV {
         return line.split(",", 2);
     }
 
-    
+    private static String[] parseFlightData(String line) {
+        
+    }
 
 }
