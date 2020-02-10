@@ -53,7 +53,7 @@ public class UtilitiesCSV {
             for (int i = 0; i < size; i++) {
                 filtered[i] = filtered[i].replaceAll("\"", "");
             }
-
+            return filtered;
         }
 
 }
