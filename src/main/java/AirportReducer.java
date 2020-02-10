@@ -27,7 +27,7 @@ public class AirportReducer {
                 if (current < min) {
                     min = current;
                 }
-                
+                sum += current;
                 }
         }
 
