@@ -23,6 +23,8 @@ public class AirportWritableComparable {
     public int compareTo(AirportWritableComparable obj) {
         return (this.airportID == obj.airportID) ?
                 (this.keyData - obj.keyData) :
+                (this.airportID - obj.airportID);
 
     }
+    
 }
