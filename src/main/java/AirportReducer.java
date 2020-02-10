@@ -29,6 +29,9 @@ public class AirportReducer {
                 }
                 sum += current;
                 }
+            if (sum != 0) {
+                
+            }
         }
 
     }
