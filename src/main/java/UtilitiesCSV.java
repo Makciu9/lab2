@@ -21,7 +21,9 @@ public class UtilitiesCSV {
     }
 
     private static String[] parseFlightData(String line) {
-        
+        return line.split(",");
     }
+
+    
 
 }
