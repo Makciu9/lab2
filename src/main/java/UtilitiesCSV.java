@@ -10,6 +10,8 @@ public class UtilitiesCSV {
         if (keyData == AIRPORT_KEY) {
             return parseAirportData(line);
         } else if (keyData == FLIGHT_KEY) {
+            return parseFlightData(line);
+        }
     }
 
 }
