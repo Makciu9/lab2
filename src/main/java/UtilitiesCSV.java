@@ -11,6 +11,8 @@ public class UtilitiesCSV {
             return parseAirportData(line);
         } else if (keyData == FLIGHT_KEY) {
             return parseFlightData(line);
+        } else {
+            
         }
     }
 
