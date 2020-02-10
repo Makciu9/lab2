@@ -7,5 +7,7 @@ public class UtilitiesCSV {
     private static final int FIRST_ITEM = 0;
 
     static String[] parse(String line, int keyData) {
+        if (keyData == AIRPORT_KEY) {
+    }
 
 }
