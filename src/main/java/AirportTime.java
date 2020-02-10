@@ -27,6 +27,7 @@ public class AirportTime {
 
     job.setOutputKeyClass(Text.class);
     job.setOutputValueClass(Text.class);
+    job.setNumReduceTasks(2);
 
 
 
