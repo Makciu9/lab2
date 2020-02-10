@@ -20,6 +20,7 @@ public class AirportReducer {
                     airportName = str;
                     continue;
                 }
+                double current = Double.parseDouble(str);
 
             }
         }
