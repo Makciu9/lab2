@@ -7,6 +7,7 @@ public class MapTemplate {
         String[] parsed = UtilitiesCSV.parse(value.toString(), keyData);
         String[] filtered = UtilitiesCSV.filter(parsed, keyData);
         String[] result = UtilitiesCSV.removeQuotes(filtered);
+        if (result.length == 0) {
     }
 
 }
